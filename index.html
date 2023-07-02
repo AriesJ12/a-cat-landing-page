@@ -7,70 +7,79 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- some are inside container fluid(100% width because they are needed for background color) -->
     <!-- navbar -->
-    <nav>
-      <span class="logo">Header logo</span>
-      <ul>
-        <li>
-          <a href="#"> header link </a>
-        </li>
-        <li>
-          <a href="#"> header link </a>
-        </li>
-        <li>
-          <a href="#"> header link </a>
-        </li>
-      </ul>
-    </nav>
+    <nav class = "container-fluid flexbox justify-center">
+       <div class="container flexbox justify-between">
+           <span class="logo">Header logo</span>
+           <ul class="flexbox">
+             <li>
+               <a href="#"> header link </a>
+             </li>
+             <li>
+               <a href="#"> header link </a>
+             </li>
+             <li>
+               <a href="#"> header link </a>
+             </li>
+           </ul>  
+       </div> 
+    </nav>  
 
     <!-- header -->
-    <header>
-      <div>
-        <h1 class="main-text">This website is awesome</h1>
-        <p class="secondary-text">Subtext</p>
-        <button>sign up</button>
+    <header class="container-fluid flexbox justify-center">
+      <div class="container flexbox justify-around">
+        <div>
+          <h1 class="main-text">This website is awesome</h1>
+          <p class="secondary-text">Subtext</p>
+          <button>sign up</button>
+        </div>
+        <img src="https://picsum.photos/200" alt="header image" />
       </div>
-      <img src="https://picsum.photos/200" alt="header image" />
     </header>
 
     <!-- information/main body -->
-    <div class="information">
-      <h1>Some random information</h1>
+    <div class="information container-fluid flexbox flex-column align-items-center">
       <div class="container">
-          <div class="card">
-            <div class="border">
-              <img src="https://picsum.photos/200" alt="" />
+        <h1>Some random information</h1>
+        <div class="flexbox flex-wrap justify-between">
+            <div class="card">
+              <div class="border-round flexbox justify-center align-items-center">
+                <img src="https://picsum.photos/200" alt="" />
+              </div>
+              some text
             </div>
-            some text
-          </div>
-          <div class="card">
-            <div class="border">
-              <img src="https://picsum.photos/200" alt="" />
+            <div class="card">
+              <div class="border-round  flexbox justify-center align-items-center">
+                <img src="https://picsum.photos/200" alt="" />
+              </div>
+              some text
             </div>
-            some text
-          </div>
-          <div class="card">
-            <div class="border">
-              <img src="https://picsum.photos/200" alt="" />
+            <div class="card">
+              <div class="border-round  flexbox justify-center align-items-center">
+                <img src="https://picsum.photos/200" alt="" />
+              </div>
+              some text
             </div>
-            some text
-          </div>
-          <div class="card">
-            <div class="border">
-              <img src="https://picsum.photos/200" alt="" />
+            <div class="card">
+              <div class="border-round  flexbox justify-center align-items-center">
+                <img src="https://picsum.photos/200" alt="" />
+              </div>
+              some text
             </div>
-            some text
-          </div>
+        </div>
       </div>
     </div>
     <!-- quote -->
-    <div class="quote">
+    <div class="quote container-fluid justify-center">
+      <div class="container">
         quote in page
         <div class="name-quote">
             <span>
                 thor
             </span>
         </div>
+      </div>
     </div>
     <div class="contact-info">
       <div>

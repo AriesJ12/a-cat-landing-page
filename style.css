@@ -2,7 +2,7 @@
 {
     box-sizing: border-box;
     font-family: roboto;
-    border: thin black solid;
+    /* border: thin black solid; */
 }
 
 body
@@ -47,7 +47,7 @@ button, .contact-info
 {
     font-size: 36px;
     font-weight: 800;
-    color: #1F2937;
+    color: #1F2937; 
 }
 
 .quote
@@ -57,5 +57,110 @@ button, .contact-info
     font-style: italic;
     font-weight: 300;
     color: #1F2937;
+}
+
+.border-round
+{
+    border: thick rgb(98, 119, 243) solid;
+}
+
+/* margin + padding and custom flex */
+nav
+{
+    padding: 32px;
+}
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+header
+{
+    flex: 1;
+    padding: 48px;
+}
+
+.information
+{
+    flex: 1;
+    padding: 48px;
+    text-align: center;
+}
+
+.quote
+{
+    flex: 1;
+}
+
+.contact-info
+{
+    flex: 1;
+}
+
+.border-round
+{
+    border-radius: 25px;
+    overflow: hidden;
+}
+.card img
+{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+/* flex classes */
+
+/* width container */
+.container-fluid
+{
+    width: 100%;
+}
+
+.container
+{
+    width: 75%;
+    height: 100%;
+}
+
+/* flex */
+.flexbox
+{
+    display: flex;
+}
+
+/* direction and wrap */
+.flex-column
+{
+    flex-direction: column;
+}
+
+.flex-wrap
+{
+    flex-wrap: wrap;
+}
+
+/* justify content */
+.justify-center
+{
+    justify-content: center;
+}
+
+.justify-between
+{
+    justify-content: space-between;
+}
+
+.justify-around
+{
+    justify-content: space-around;
+}
+
+.align-items-center
+{
+    align-items: center;
 }
 
