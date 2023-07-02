@@ -61,7 +61,7 @@ button, .contact-info
 
 .border-round
 {
-    border: thick rgb(98, 119, 243) solid;
+    border: thick #3882f6 solid;
 }
 
 /* margin + padding and custom flex */
@@ -93,6 +93,14 @@ header
 .quote
 {
     flex: 1;
+}
+
+.quote .name-quote
+{
+    align-self: flex-end;
+    font-style:normal;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .contact-info
