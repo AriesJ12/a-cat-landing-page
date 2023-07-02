@@ -27,7 +27,7 @@ nav, header, footer
     color:#F9FAF8;
 }
 
-.secondary-text, nav ul li a, footer, .contact-info
+.secondary-text, nav ul li a, footer, .contact-info, button
 {
     font-size: 18px;
     color:  #E5E7eb;
@@ -62,6 +62,12 @@ button, .contact-info
 .border-round
 {
     border: thick #3882f6 solid;
+}
+
+.contact-info button
+{
+    border-color: #F9FAF8;
+    border-width: medium;
 }
 
 footer
@@ -123,7 +129,7 @@ header
 
 .border-round
 {
-    border-radius: 5px;
+    border-radius: 15px;
     overflow: hidden;
 }
 .card img
