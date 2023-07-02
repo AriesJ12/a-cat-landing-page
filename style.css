@@ -11,6 +11,7 @@ body
     display: flex;
     flex-direction: column;
     margin: 0;
+    align-items: center;
 }
 
 /* design */
@@ -58,54 +59,3 @@ button, .contact-info
     color: #1F2937;
 }
 
-/* flex-box positioning + margins and paddings*/
-nav
-{
-    display: flex;
-    justify-content: space-around;
-    padding: 16px;
-}
-
-ul
-{
-    /* reset the whole ul */
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    gap: 12px;
-}
-
-header
-{
-    flex: 1;
-    display:flex;
-    gap: 32px;
-    padding: 64px 0;
-    justify-content: center;
-}
-
-.information
-{
-    flex:1;
-}
-
-.quote
-{
-    flex:1;
-}
-
-.quote
-{
-    flex: 1;
-}
-
-.contact-info
-{
-    flex: 1;
-}
-
-header h1, header p
-{
-    margin: 0;
-}
