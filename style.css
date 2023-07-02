@@ -15,7 +15,7 @@ body
 }
 
 /* design */
-nav, header
+nav, header, footer
 {
     background-color: #1F2937;
 }
@@ -27,7 +27,7 @@ nav, header
     color:#F9FAF8;
 }
 
-.secondary-text, nav ul li a
+.secondary-text, nav ul li a, footer, .contact-info
 {
     font-size: 18px;
     color:  #E5E7eb;
@@ -64,6 +64,12 @@ button, .contact-info
     border: thick #3882f6 solid;
 }
 
+footer
+{
+    text-align: center;
+    padding: 48px;
+}
+
 /* margin + padding and custom flex */
 nav
 {
@@ -93,6 +99,7 @@ header
 .quote
 {
     flex: 1;
+    padding: 48px;
 }
 
 .quote .name-quote
@@ -106,11 +113,17 @@ header
 .contact-info
 {
     flex: 1;
+    margin: 48px;
+    padding: 48px 0;
+}
+.contact-info h4
+{
+    margin: 0;
 }
 
 .border-round
 {
-    border-radius: 25px;
+    border-radius: 5px;
     overflow: hidden;
 }
 .card img
@@ -118,6 +131,11 @@ header
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%
+}
+
+button
+{
+    padding: 6px 24px;
 }
 
 /* flex classes */
