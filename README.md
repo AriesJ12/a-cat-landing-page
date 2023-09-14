@@ -2,5 +2,6 @@
 
 project for the odin project(landing page)
 
--aries
-(time of being written 6:13 pm July 2 , 2023 in SEA)
+live: https://ariesj12.github.io/a-cat-landing-page/
+
+100% copied the design for someone; i dont take credit for it
